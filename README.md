@@ -1,8 +1,6 @@
 # eslint-plugin-dtslint
 
-This repo is a WIP.
-
-Eventually, it will contain ESLint versions of the dtslint rules in the [`tslint-etc`](https://github.com/cartant/tslint-etc) package.
+This repo contains ESLint versions of the dtslint rules in the [`tslint-etc`](https://github.com/cartant/tslint-etc) package. They're useful if you have an existing suite of dtslint tests. However, if you've not yet started writing tests for your TypeScript types, you should look at using [`tsd`](https://github.com/SamVerschueren/tsd) instead.
 
 # Install
 
