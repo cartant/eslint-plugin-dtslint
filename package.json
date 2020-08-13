@@ -12,7 +12,7 @@
     "tslib": "^2.0.0",
     "tsutils": "^3.17.1"
   },
-  "description": "dtslint rules for ESLint",
+  "description": "ESLint rules for dtslint tests",
   "devDependencies": {
     "@cartant/eslint-config": "^1.0.0",
     "@types/chai": "^4.2.0",
