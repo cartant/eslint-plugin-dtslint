@@ -15,11 +15,11 @@ const rule = ruleCreator({
         "Forbids dtslint-like expectations that have typographical errors.",
       recommended: false,
     },
-    fixable: null,
+    fixable: undefined,
     messages: {
       typo: "Typo in dtslint expectation.",
     },
-    schema: null,
+    schema: [],
     type: "problem",
   },
   name: "no-typo",
