@@ -100,8 +100,10 @@ function walk(
   const seenDiagnosticsOnLine = new Set<number>();
 
   for (const diagnostic of diagnostics) {
-    const line = lineOfPosition(diagnostic.start!, sourceFile);
-    seenDiagnosticsOnLine.add(line);
+    if (diagnostic.start != null) {
+      const line = lineOfPosition(diagnostic.start, sourceFile);
+      seenDiagnosticsOnLine.add(line);
+    }
     // if (!errorLines.has(line)) {
     //   addDiagnosticFailure(diagnostic);
     // }
