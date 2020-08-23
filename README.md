@@ -31,6 +31,7 @@ module.exports = {
   extends: [],
   rules: {
     "dtslint/expect-deprecation": "error",
+    "dtslint/expect-type": "error",
     "dtslint/no-typo": "error"
   }
 };
