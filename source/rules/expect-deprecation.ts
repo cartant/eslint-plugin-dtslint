@@ -5,7 +5,7 @@
 
 import { tsquery } from "@phenomnomnominal/tsquery";
 import { TSESTree as es } from "@typescript-eslint/experimental-utils";
-import { getTypeServices } from "eslint-etc";
+import { getParserServices, getTypeServices } from "eslint-etc";
 import * as ts from "typescript";
 import { getDeprecation } from "../tslint-deprecation";
 import { ruleCreator } from "../utils";
@@ -29,7 +29,8 @@ const rule = ruleCreator({
   },
   name: "expect-deprecation",
   create: (context) => {
-    const { nodeMap, typeChecker } = getTypeServices(context);
+    const { esTreeNodeToTSNodeMap } = getParserServices(context);
+    const { typeChecker } = getTypeServices(context);
     let expectations: Record<
       number,
       {
@@ -43,7 +44,7 @@ const rule = ruleCreator({
       if (expectations.hasOwnProperty(line)) {
         const { expected, loc } = expectations[line];
         const idendtifers = tsquery(
-          nodeMap.get(node),
+          esTreeNodeToTSNodeMap.get(node),
           "Identifier"
         ) as ts.Identifier[];
         const found = idendtifers.some(
