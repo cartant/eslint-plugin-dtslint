@@ -716,10 +716,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-etc@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-etc/-/eslint-etc-3.1.0.tgz#04fdaa4f876f1aa16586e6020e49cbbedba8d993"
-  integrity sha512-khFVy8uFgj3duEijnIbICSKo+95/ubOtcdDe006Xsm1gHNKK2AkzgNRB1xGCCdB8osLm1n1PYjfBbpzdmczVNQ==
+eslint-etc@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-etc/-/eslint-etc-4.0.0.tgz#0f46503bbdc8ed5bc34f96cc8f11e9d52cac83a9"
+  integrity sha512-M6R0dUAT/pC+dZRP9uMOkAnuCssMtUuwtgwgIZfk933wr+uP0bjog61WHHXM2ghNF0hIqOokPb5/lJlXLD+NCg==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.0"
     tsutils "^3.17.1"
