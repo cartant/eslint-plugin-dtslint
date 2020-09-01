@@ -1,3 +1,10 @@
+<a name="2.0.0"></a>
+## [2.0.0](https://github.com/cartant/eslint-plugin-dtslint/compare/v1.1.2...v2.0.0) (2020-09-02)
+
+### Changes
+
+* Upgrade `eslint-etc`. ([f0e464f](https://github.com/cartant/eslint-plugin-dtslint/commit/f0e464f))
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/cartant/eslint-plugin-dtslint/compare/v1.1.1...v1.1.2) (2020-09-02)
 
