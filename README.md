@@ -1,7 +1,5 @@
 # eslint-plugin-dtslint
 
-https://img.shields.io/circleci/build/github/cartant/eslint-plugin-dtslint?token=6d32b4f55e49a1cafa04ef1e81688005a05650d2
-
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cartant/eslint-plugin-dtslint/blob/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/eslint-plugin-dtslint.svg)](https://www.npmjs.com/package/eslint-plugin-dtslint)
 [![Downloads](http://img.shields.io/npm/dm/eslint-plugin-dtslint.svg)](https://npmjs.org/package/eslint-plugin-dtslint)
