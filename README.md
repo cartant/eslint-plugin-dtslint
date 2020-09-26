@@ -1,5 +1,13 @@
 # eslint-plugin-dtslint
 
+[![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cartant/eslint-plugin-dtslint/blob/master/LICENSE)
+[![NPM version](https://img.shields.io/npm/v/eslint-plugin-dtslint.svg)](https://www.npmjs.com/package/eslint-plugin-dtslint)
+[![Downloads](http://img.shields.io/npm/dm/eslint-plugin-dtslint.svg)](https://npmjs.org/package/eslint-plugin-dtslint)
+[![Build status](https://img.shields.io/travis/cartant/eslint-plugin-dtslint.svg)](http://travis-ci.org/cartant/eslint-plugin-dtslint)
+[![dependency status](https://img.shields.io/david/cartant/eslint-plugin-dtslint.svg)](https://david-dm.org/cartant/eslint-plugin-dtslint)
+[![devDependency Status](https://img.shields.io/david/dev/cartant/eslint-plugin-dtslint.svg)](https://david-dm.org/cartant/eslint-plugin-dtslint#info=devDependencies)
+[![peerDependency Status](https://img.shields.io/david/peer/cartant/eslint-plugin-dtslint.svg)](https://david-dm.org/cartant/eslint-plugin-dtslint#info=peerDependencies)
+
 This repo contains ESLint versions of the dtslint rules in the [`tslint-etc`](https://github.com/cartant/tslint-etc) package. They're useful if you have an existing suite of dtslint tests. However, if you've not yet started writing tests for your TypeScript types, you should look at using [`tsd`](https://github.com/SamVerschueren/tsd) instead.
 
 # Install
