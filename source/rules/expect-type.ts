@@ -63,7 +63,7 @@ function walk(
   versionName: string,
   nextHigherVersion: string | undefined
 ): void {
-  const sourceFile = program.getSourceFile(fileName)!;
+  const sourceFile = program.getSourceFile(fileName);
   if (!sourceFile) {
     throw new Error(`Source file ${fileName} not in program.`);
     // ctx.addFailure(
