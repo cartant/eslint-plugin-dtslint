@@ -52,5 +52,5 @@ The package includes the following rules:
 | Rule | Description | Recommended |
 | --- | --- | --- |
 | [`expect-deprecation`](https://github.com/cartant/eslint-plugin-dtslint/blob/main/docs/rules/expect-deprecation.md) | Asserts deprecations with `$ExpectDeprecation` and `$ExpectNoDeprecation`. | Yes |
-| [`expect-type`](https://github.com/cartant/eslint-plugin-dtslint/blob/main/source/docs/expect-type.md) | Asserts types with `$ExpectType` and presence of errors with `$ExpectError`. You can use ESLint and this rule to perform your type tests without having to install or run dtslint. | Yes |
+| [`expect-type`](https://github.com/cartant/eslint-plugin-dtslint/blob/main/docs/rules/expect-type.md) | Asserts types with `$ExpectType` and presence of errors with `$ExpectError`. You can use ESLint and this rule to perform your type tests without having to install or run dtslint. | Yes |
 | [`no-typo`](https://github.com/cartant/eslint-plugin-dtslint/blob/main/docs/rules/no-typo.md) | Forbids dtslint-like expectations that have typographical errors. | Yes |
