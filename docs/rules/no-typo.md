@@ -1,4 +1,4 @@
-# no-typo
+# `no-typo`
 
 This rule forbids dtslint-style comments that have typographical errors that prevent them from being interpreted as actual dtslint-style comments.
 

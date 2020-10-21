@@ -1,4 +1,4 @@
-# expect-type
+# `expect-type`
 
 This rule works with dtslint `$ExpectType` and `$ExpectError` comments.
 

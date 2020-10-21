@@ -1,4 +1,4 @@
-# expect-deprecation
+# `expect-deprecation`
 
 This rule works with a dtslint-style `$ExpectDeprecation` comment.
 
