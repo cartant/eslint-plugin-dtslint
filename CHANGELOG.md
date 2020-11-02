@@ -1,3 +1,10 @@
+<a name="2.0.3"></a>
+## [2.0.3](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.2...v2.0.3) (2020-11-03)
+
+### Changes
+
+* Update rule metadata.
+
 <a name="2.0.2"></a>
 ## [2.0.2](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.1...v2.0.2) (2020-10-23)
 
