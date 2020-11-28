@@ -1,3 +1,10 @@
+<a name="2.0.4"></a>
+## [2.0.4](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.3...v2.0.4) (2020-11-28)
+
+### Changes
+
+* Use `file` in `package.json` instead of `.npmignore`. ([483f4c3](https://github.com/cartant/eslint-plugin-dtslint/commit/483f4c3))
+
 <a name="2.0.3"></a>
 ## [2.0.3](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.2...v2.0.3) (2020-11-03)
 
