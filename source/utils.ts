@@ -7,5 +7,5 @@ import { ESLintUtils } from "@typescript-eslint/experimental-utils";
 
 export const ruleCreator = ESLintUtils.RuleCreator(
   (name) =>
-    `https://github/cartant/eslint-plugin-dtslint/tree/main/docs/rules/${name}.md`
+    `https://github.com/cartant/eslint-plugin-dtslint/tree/main/docs/rules/${name}.md`
 );
