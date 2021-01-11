@@ -1,3 +1,10 @@
+<a name="2.0.5"></a>
+## [2.0.5](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.4...v2.0.5) (2021-01-11)
+
+### Changes
+
+* Fix GitHub URL for docs. ([be46734](https://github.com/cartant/eslint-plugin-dtslint/commit/be46734))
+
 <a name="2.0.4"></a>
 ## [2.0.4](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.3...v2.0.4) (2020-11-28)
 
