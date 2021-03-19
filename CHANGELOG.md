@@ -1,3 +1,10 @@
+<a name="2.0.6"></a>
+## [2.0.6](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.5...v2.0.6) (2021-03-20)
+
+### Fixes
+
+* Enable TypeScript's `strict` option and fix related problems. ([52a106f](https://github.com/cartant/eslint-plugin-dtslint/commit/52a106f))
+
 <a name="2.0.5"></a>
 ## [2.0.5](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.4...v2.0.5) (2021-01-11)
 
