@@ -161,6 +161,9 @@ function walk(
     line: number,
     messageId: "duplicateAssertion" | "expectedError" | "missingNode"
   ): void {
+    if (!sourceFile) {
+      return;
+    }
     const startPosition = sourceFile.getPositionOfLineAndCharacter(line, 0);
     let endPosition = startPosition + sourceFile.text.split("\n")[line].length;
     if (sourceFile.text[endPosition - 1] === "\r") {
