@@ -1,3 +1,10 @@
+<a name="2.0.7"></a>
+## [2.0.7](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.6...v2.0.7) (2021-03-22)
+
+### Fixes
+
+- Set minimum `eslint-etc` version. ([4aac0fe](https://github.com/cartant/eslint-plugin-dtslint/commit/4aac0fe))
+
 <a name="2.0.6"></a>
 ## [2.0.6](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.5...v2.0.6) (2021-03-20)
 
