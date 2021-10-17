@@ -1,3 +1,10 @@
+<a name="2.0.8"></a>
+## [2.0.8](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.7...v2.0.8) (2021-10-17)
+
+### Fixes
+
+- Support changes made to the comment AST in TypeScript 4.3. ([60af1ab](https://github.com/cartant/eslint-plugin-dtslint/commit/60af1ab))
+
 <a name="2.0.7"></a>
 ## [2.0.7](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.6...v2.0.7) (2021-03-22)
 
