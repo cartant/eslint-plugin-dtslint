@@ -10,12 +10,12 @@ const rule = ruleCreator({
   defaultOptions: [],
   meta: {
     docs: {
-      category: "Possible Errors",
       description:
         "Forbids dtslint-like expectations that have typographical errors.",
       recommended: false,
     },
     fixable: undefined,
+    hasSuggestions: false,
     messages: {
       typo: "Typo in dtslint expectation.",
     },

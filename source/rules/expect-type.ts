@@ -17,12 +17,12 @@ const rule = ruleCreator({
   defaultOptions: [],
   meta: {
     docs: {
-      category: "Best Practices",
       description:
         "Asserts types with `$ExpectType` and presence of errors with `$ExpectError`.",
       recommended: false,
     },
     fixable: undefined,
+    hasSuggestions: false,
     messages: {
       duplicateAssertion: "This line has two `$ExpectType` assertions.",
       expectedError: "Expected an error on this line, but found none.",
@@ -89,9 +89,8 @@ function walk(
   //   return;
   // }
 
-  const { errorLines, typeAssertions, duplicates } = parseAssertions(
-    sourceFile
-  );
+  const { errorLines, typeAssertions, duplicates } =
+    parseAssertions(sourceFile);
 
   for (const line of duplicates) {
     addFailureAtLine(line, "duplicateAssertion");

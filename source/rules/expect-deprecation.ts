@@ -14,12 +14,12 @@ const rule = ruleCreator({
   defaultOptions: [],
   meta: {
     docs: {
-      category: "Best Practices",
       description:
         "Asserts deprecations with `$ExpectDeprecation` and `$ExpectNoDeprecation`.",
       recommended: false,
     },
     fixable: undefined,
+    hasSuggestions: false,
     messages: {
       found: "Deprecation found.",
       notFound: "Deprecation not found.",
