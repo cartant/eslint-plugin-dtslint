@@ -1,3 +1,10 @@
+<a name="3.0.0"></a>
+## [3.0.0](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.8...v3.0.0) (2021-10-17)
+
+### Breaking Changes
+
+- Support `eslint` v8 and `@typescript-eslint` v5. ([d6cf4d5](https://github.com/cartant/eslint-plugin-dtslint/commit/d6cf4d5))
+
 <a name="2.0.8"></a>
 ## [2.0.8](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.7...v2.0.8) (2021-10-17)
 
