@@ -126,7 +126,13 @@ export function getDeprecation(
 function findDeprecationTag(tags: ts.JSDocTagInfo[]): string | undefined {
   for (const tag of tags) {
     if (tag.name === "deprecated") {
-      return tag.text === undefined ? "" : tag.text;
+      if (tag.text === undefined) {
+        return "";
+      } else if (typeof tag.text === "string") {
+        return tag.text;
+      } else {
+        return tag.text.reduce((text, part) => text.concat(part.text), "");
+      }
     }
   }
   return undefined;
@@ -188,7 +194,13 @@ function getDeprecationFromDeclaration(
     }
     for (const tag of comment.tags) {
       if (tag.tagName.text === "deprecated") {
-        return tag.comment === undefined ? "" : tag.comment;
+        if (tag.comment === undefined) {
+          return "";
+        } else if (typeof tag.comment === "string") {
+          return tag.comment;
+        } else {
+          return tag.comment.reduce((text, part) => text.concat(part.text), "");
+        }
       }
     }
   }
