@@ -4,7 +4,7 @@
     "url": "https://github.com/cartant/eslint-plugin-dtslint/issues"
   },
   "dependencies": {
-    "@phenomnomnominal/tsquery": "^4.1.0",
+    "@phenomnomnominal/tsquery": "^5.0.0",
     "@typescript-eslint/experimental-utils": "^5.0.0",
     "eslint-etc": "^5.0.0",
     "requireindex": "~1.2.0",
