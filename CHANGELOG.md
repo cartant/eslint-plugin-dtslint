@@ -1,3 +1,10 @@
+<a name="3.0.1"></a>
+## [3.0.1](https://github.com/cartant/eslint-plugin-dtslint/compare/v3.0.0...v3.0.1) (2022-07-16)
+
+### Changes
+
+- Upgrade dependencies.
+
 <a name="3.0.0"></a>
 ## [3.0.0](https://github.com/cartant/eslint-plugin-dtslint/compare/v2.0.8...v3.0.0) (2021-10-17)
 
