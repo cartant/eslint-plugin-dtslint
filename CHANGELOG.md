@@ -1,3 +1,10 @@
+<a name="3.0.2"></a>
+## [3.0.2](https://github.com/cartant/eslint-plugin-dtslint/compare/v3.0.1...v3.0.2) (2023-05-09)
+
+### Changes
+
+- Widen the TypeScript peer dependency. ([b263d4c](https://github.com/cartant/eslint-plugin-dtslint/commit/b263d4c))
+
 <a name="3.0.1"></a>
 ## [3.0.1](https://github.com/cartant/eslint-plugin-dtslint/compare/v3.0.0...v3.0.1) (2022-07-16)
 
